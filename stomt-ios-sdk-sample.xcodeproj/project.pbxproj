@@ -13,9 +13,13 @@
 		FEB372941BCD34150003969B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB372921BCD34150003969B /* Main.storyboard */; };
 		FEB372961BCD34150003969B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB372951BCD34150003969B /* Assets.xcassets */; };
 		FEB372991BCD34150003969B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB372971BCD34150003969B /* LaunchScreen.storyboard */; };
+		FF31DF37158A6BA9BF88FBB7 /* libPods-stomt-ios-sdk-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26215EB5B691762AD353D1A /* libPods-stomt-ios-sdk-sample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B31101AF0561F3739F0C6E6 /* Pods-stomt-ios-sdk-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stomt-ios-sdk-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-stomt-ios-sdk-sample/Pods-stomt-ios-sdk-sample.release.xcconfig"; sourceTree = "<group>"; };
+		B2FAA6D2D798FAB1F1809EDD /* Pods-stomt-ios-sdk-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stomt-ios-sdk-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stomt-ios-sdk-sample/Pods-stomt-ios-sdk-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		F26215EB5B691762AD353D1A /* libPods-stomt-ios-sdk-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stomt-ios-sdk-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB372861BCD34150003969B /* stomt-ios-sdk-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stomt-ios-sdk-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB3728A1BCD34150003969B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEB3728C1BCD34150003969B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF31DF37158A6BA9BF88FBB7 /* libPods-stomt-ios-sdk-sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D27C2052D84A8EE4A1A83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26215EB5B691762AD353D1A /* libPods-stomt-ios-sdk-sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8936DC28655DB2499B67B807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAA6D2D798FAB1F1809EDD /* Pods-stomt-ios-sdk-sample.debug.xcconfig */,
+				8B31101AF0561F3739F0C6E6 /* Pods-stomt-ios-sdk-sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FEB3727D1BCD34150003969B = {
 			isa = PBXGroup;
 			children = (
 				FEB372881BCD34150003969B /* stomt-ios-sdk-sample */,
 				FEB372871BCD34150003969B /* Products */,
+				8936DC28655DB2499B67B807 /* Pods */,
+				53D27C2052D84A8EE4A1A83E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEB3729D1BCD34150003969B /* Build configuration list for PBXNativeTarget "stomt-ios-sdk-sample" */;
 			buildPhases = (
+				6D29A17ADAB428933E3D4316 /* Check Pods Manifest.lock */,
 				FEB372821BCD34150003969B /* Sources */,
 				FEB372831BCD34150003969B /* Frameworks */,
 				FEB372841BCD34150003969B /* Resources */,
+				961E6642223E312B6C1D2F99 /* Embed Pods Frameworks */,
+				9F05E30EA733165D4D138958 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D29A17ADAB428933E3D4316 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		961E6642223E312B6C1D2F99 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stomt-ios-sdk-sample/Pods-stomt-ios-sdk-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F05E30EA733165D4D138958 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stomt-ios-sdk-sample/Pods-stomt-ios-sdk-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEB372821BCD34150003969B /* Sources */ = {
@@ -261,6 +336,7 @@
 		};
 		FEB3729E1BCD34150003969B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FAA6D2D798FAB1F1809EDD /* Pods-stomt-ios-sdk-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "stomt-ios-sdk-sample/Info.plist";
@@ -272,6 +348,7 @@
 		};
 		FEB3729F1BCD34150003969B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B31101AF0561F3739F0C6E6 /* Pods-stomt-ios-sdk-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "stomt-ios-sdk-sample/Info.plist";
@@ -300,6 +377,7 @@
 				FEB3729F1BCD34150003969B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

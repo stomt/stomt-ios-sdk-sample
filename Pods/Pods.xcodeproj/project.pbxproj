@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CFEFF614AB3E204B49E1DAB5FA8124 /* STSearchFilterKeywords.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BD22F14FD69E1D3EA132BA59F85DE /* STSearchFilterKeywords.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0B079C15677CA4BAE966EF47225BC008 /* Stomt.h in Headers */ = {isa = PBXBuildFile; fileRef = E34A77A1B6DEC1F27805F0925309BB87 /* Stomt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C608010DA672AE3992E278E4408A82C /* STTargetNameRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BF9A743835DD95F83F4D477F65F9ED /* STTargetNameRectangle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CBC60B008789E05A05B3DC750AFBD40 /* STObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F050FD1B896956F223CFE95EED8B38 /* STObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8AC01A260BDD3DD7BBEE886291B626 /* STFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 138B4EB15254710E6C9739E5AAB724B6 /* STFeed.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		177DB48CD1794084BE380A8963C45CD0 /* STCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588587608B14937509EDC63E8261EA45 /* STCreationViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18CE630EF688123CCAE64BA5285ACFDD /* StomtiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCA1F190ED6FA0A7403474D1B8669E /* StomtiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC4B2C01C5886113CCCBA2D1DEDAFF9 /* strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4546B1E6F39CD286A3962D57EC00B180 /* strings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C277452D75BC98FD48E7FC701ABAF38 /* HTTPResponseChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D28C65CA9F373638A36F202CCB0A61 /* HTTPResponseChecker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBC90D8AB7A87F3B0455F7BD4834BA0 /* STTargetNameRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8E6F991FB898FD308D21337738F389 /* STTargetNameRectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B3C5F5AB66F1404DF25BC7D959E028 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43CFFD0E72A6D11E6DD2D1981FF9B0 /* NSDate+ISO8601.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A8FBA34FCA6D4D7F198183711F4A67A /* STTargetDisplayerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81976014C2C9956F18F6624B284FF6D9 /* STTargetDisplayerContainer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		321A5A27104FC56A18421EB7AD184398 /* declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = D57828C6E2239DC203ED1BC9F7E8DD8D /* declarations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3338BC9AEEBD8A1E64D1FB68A52D80F1 /* STUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D8FA9EE0BC9CB1BDCB2C50547E156B /* STUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		344281D53DCA366E96ACE9E2EC401CCB /* STLikeOrWishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1657E53159F12EA466A1A2FB6D8EA596 /* STLikeOrWishView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36762F84E8D58991DA0B426452184C76 /* StomtRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 128F91D12121ABCE0D02C7BE77C8FD40 /* StomtRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3922405269009F14D3AE810F3943726F /* STFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8090DA5F0A22A1A971EE0E9D93F498 /* STFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE84A6F64B57ABA7CF99D6ADFDDE05A /* STImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC076542DD82E8EA20159EED1BF9A8C /* STImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CBE6757E44DC9972C598C566D1A5DF9 /* block_declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBC5D86CB19528496F9EC18F450D71 /* block_declarations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7128019B82D717679704021670D7EE /* STTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 523B66FFC16E395135B1C54D25DF52C1 /* STTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4179ED01FC8B3EA880C0AB7831149B2A /* STTargetDisplayerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E32E2CE8C53D1A3EC3EC734493B31D /* STTargetDisplayerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C36E15B2B4AE8E96A0B07B8ED85A32 /* STCreationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46ACD2E9F59DA864415E00005ACB57C2 /* STCreationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4753BC7958EE704D02B68CC3A7B2D58F /* Stomt-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C44BA314F5EF9ECBD4188226AB6433 /* Stomt-iOS-SDK-dummy.m */; };
+		49180F07942ED00F3B96D45E9B0F3C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		4D124AF9A7B5B28E7167C775385DFA01 /* STTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E543589BB2BC553A7424D8DB6A157E /* STTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51458A0E3EA7C333BEB5D00E956C9E41 /* dbg.h in Headers */ = {isa = PBXBuildFile; fileRef = A603CBC3BDB456D763480DB1CA8C5A0A /* dbg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5588A87931317E412632E8D39861B741 /* AuthenticationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A8AE11ACD0AAF5E4BB9C9FA5965A86 /* AuthenticationView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B0CEF62BAAB42EE66BC188D06219670 /* STButtonLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C29D8A54B777C59AD3E997EB109CC15D /* STButtonLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E39691AF100284C1D6FCF527DD70C36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		750B847856DD9257495E72436B30ED2D /* STTargetDisplayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 092A844DB012DABF62C58AEF711FB413 /* STTargetDisplayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77DFA9B192C0CB475699A7C13346090B /* STSearchFilterKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CD1A05F1E3717CA288BCA5FFA7F047 /* STSearchFilterKeywords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBBE2010CD0A3DD9D6800D5C4D4B956 /* STUser.h in Headers */ = {isa = PBXBuildFile; fileRef = D003253F1945C5E7C0D71A51E7AD4E6D /* STUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F96EFDEF2BCF42D57788543A8DF9613 /* StomtRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D379CB604FD91C34306C6D3DDAD1C52 /* StomtRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86260383FA390C46EC3DC85E72ACAC07 /* Stomt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B44E66BE3DD76A4303B14309E6A2A /* Stomt.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88660027C3772739CF21D5686D3E35BD /* STCreationTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 64776AFBA724EF02D81E968868AEA958 /* STCreationTop.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B0B8833611B4E59BC1BF38B5C80D841 /* STTargetDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B51746BCC2D950570DACF72278E9F8C9 /* STTargetDisplayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CEE080325BB7D7FA871F9D8D47E0459 /* STQualifierView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD713A1B7440DB89E252A7C59976BE2F /* STQualifierView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905335C56B3B9597CF13A142F83B9733 /* STLikeOrWishView.h in Headers */ = {isa = PBXBuildFile; fileRef = E526273F16ABA3F4347C217E48F3FF07 /* STLikeOrWishView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9324178E6C80B95B5C4258F9F447815F /* STQualifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16938373304A4E4E7FA15158CC5DEC /* STQualifierView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95C90358630CA2C9E99F6AD908445EC1 /* STCharCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18EB52CFD8CC962807B1D4B1AD1508 /* STCharCountLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		975FA275A823311779EBCD8B199F644F /* STCharCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C9E7E080B39631250286288D642E8E /* STCharCountLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1ADFAB126D17CB8DF929C350445D3F /* STCreationView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0371B7A6B91CDADED81AEDA14D8DF1 /* STCreationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BD50454CD9B83C31DD81DD289709F8 /* STCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A20C71262D9B016532A91782F5A63F /* STCategory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AB72B8AF296A992ECF90CD73A4F65896 /* STObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A922502C3E8424ED3500FC9A0FE857 /* STObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC71819FC5CE0F7FACE6F2E226DEEF3B /* STImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFBC68F85AAD9D0D448E90C842377DB /* STImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0398FE1D121D868E5896051DB73A83 /* AuthenticationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AD34F243F440BF18CD0DD138FECE8C /* AuthenticationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3CDC19D305C714882CE27A636E375A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		BACA03EFC24903760F296D9F47C0E257 /* STSTats.m in Sources */ = {isa = PBXBuildFile; fileRef = B92806158FB743151135B807C680F64C /* STSTats.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB9B1BA5DF074F45E4154A050907A4F5 /* STTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 527A5AC3662830600CE2E5ACDF9F21E2 /* STTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF778CFAE91545DF6CE0E5D2BC2DFA93 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6418B461BA95BE4B4E73F518501DA83 /* AuthenticationViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C0DA0873931640975EB6692F3B11EA1F /* ModalAuthenticationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD69BE822819F1096161DAD35516BDD /* ModalAuthenticationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FF52C60F3050A7E1DB3F35EBE9BD35 /* STImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B4B7F1375428768CFECFF1860FFFF /* STImage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6509C36ABCF9FF11D5457BA7B6A5552 /* AuthenticationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 830CDAC0DB99EC7615077FAB459997BE /* AuthenticationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C1066CB163FD93603A198F6C522BEA /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C8424613346EFEA8C71563B108CFD9 /* NSDate+ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF575893AA014F339FB957AF89D9A6AB /* STButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E10260B130363A2C2E01A6CDEE83F6A1 /* STButtonLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4D7C991A7FF48CF2DEC654881EECB50 /* Pods-stomt-ios-sdk-sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FF0724456B9CFA8C952490B3485E27 /* Pods-stomt-ios-sdk-sample-dummy.m */; };
+		E501116497028DEDB27530025948E7F7 /* HTTPResponseChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE389FF96428BB83214F118DF5DD949 /* HTTPResponseChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E66B756A5689F817587E2E4D39C878BD /* STTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A111815BFE3778004E4C2767212454 /* STTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8A0F8A7F0A2ACF19B726FBF4428EEEF /* STImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B45BEE23D92D378A3E4BFE2344DFED /* STImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E95BED1B7D6CF872603A892C672851B0 /* STCreationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525B7FED181902CC769308DE810871F /* STCreationView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF96F59F8D4535F220088E30648DADDA /* STCreationTop.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7C178BB03B2BDDDF9168C00558B6D0 /* STCreationTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D10CA6AF762F55824482479DCD2D55 /* STSTats.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DE5E22282529C8E6A9DEACC1C9070D /* STSTats.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E12F7F6942622EB2C8E55C71DC6C5C /* STCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C58DDB83D1A4E5871D7CEA7CBB70F161 /* STCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BA3C196D12C468756ACB3C2D1861DC /* ModalAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9FCF1E4E2A3C8B5E6E228A3DF6935 /* ModalAuthenticationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0B0734B5DC94F0BE3F62949F7CB5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0312E2C94478FE642278A61D5129A917;
+			remoteInfo = "Stomt-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0136A7CC8A3B12055360F7D089626347 /* Pods-stomt-ios-sdk-sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stomt-ios-sdk-sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05E32E2CE8C53D1A3EC3EC734493B31D /* STTargetDisplayerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTargetDisplayerContainer.h; path = StomtiOS/STTargetDisplayerContainer.h; sourceTree = "<group>"; };
+		08B45BEE23D92D378A3E4BFE2344DFED /* STImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STImageView.h; path = StomtiOS/STImageView.h; sourceTree = "<group>"; };
+		092A844DB012DABF62C58AEF711FB413 /* STTargetDisplayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTargetDisplayer.h; path = StomtiOS/STTargetDisplayer.h; sourceTree = "<group>"; };
+		0AC076542DD82E8EA20159EED1BF9A8C /* STImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STImageView.m; path = StomtiOS/STImageView.m; sourceTree = "<group>"; };
+		0E0BD22F14FD69E1D3EA132BA59F85DE /* STSearchFilterKeywords.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STSearchFilterKeywords.m; path = StomtiOS/STSearchFilterKeywords.m; sourceTree = "<group>"; };
+		11A922502C3E8424ED3500FC9A0FE857 /* STObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STObject.h; path = StomtiOS/STObject.h; sourceTree = "<group>"; };
+		128F91D12121ABCE0D02C7BE77C8FD40 /* StomtRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StomtRequest.m; path = StomtiOS/StomtRequest.m; sourceTree = "<group>"; };
+		12DE5E22282529C8E6A9DEACC1C9070D /* STSTats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STSTats.h; path = StomtiOS/STSTats.h; sourceTree = "<group>"; };
+		138B4EB15254710E6C9739E5AAB724B6 /* STFeed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STFeed.m; path = StomtiOS/STFeed.m; sourceTree = "<group>"; };
+		15C8424613346EFEA8C71563B108CFD9 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "StomtiOS/NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		1657E53159F12EA466A1A2FB6D8EA596 /* STLikeOrWishView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STLikeOrWishView.m; path = StomtiOS/STLikeOrWishView.m; sourceTree = "<group>"; };
+		29A8AE11ACD0AAF5E4BB9C9FA5965A86 /* AuthenticationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthenticationView.m; path = StomtiOS/AuthenticationView.m; sourceTree = "<group>"; };
+		2AF9ECD3644A2D9481E1B0CFFD50D489 /* libPods-stomt-ios-sdk-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stomt-ios-sdk-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE389FF96428BB83214F118DF5DD949 /* HTTPResponseChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPResponseChecker.m; path = StomtiOS/HTTPResponseChecker.m; sourceTree = "<group>"; };
+		3E16938373304A4E4E7FA15158CC5DEC /* STQualifierView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STQualifierView.m; path = StomtiOS/STQualifierView.m; sourceTree = "<group>"; };
+		4546B1E6F39CD286A3962D57EC00B180 /* strings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strings.h; path = StomtiOS/strings.h; sourceTree = "<group>"; };
+		46ACD2E9F59DA864415E00005ACB57C2 /* STCreationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCreationViewController.h; path = StomtiOS/STCreationViewController.h; sourceTree = "<group>"; };
+		523B66FFC16E395135B1C54D25DF52C1 /* STTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTarget.m; path = StomtiOS/STTarget.m; sourceTree = "<group>"; };
+		527A5AC3662830600CE2E5ACDF9F21E2 /* STTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTextView.h; path = StomtiOS/STTextView.h; sourceTree = "<group>"; };
+		588587608B14937509EDC63E8261EA45 /* STCreationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCreationViewController.m; path = StomtiOS/STCreationViewController.m; sourceTree = "<group>"; };
+		59AD34F243F440BF18CD0DD138FECE8C /* AuthenticationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthenticationView.h; path = StomtiOS/AuthenticationView.h; sourceTree = "<group>"; };
+		5B5B44E66BE3DD76A4303B14309E6A2A /* Stomt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Stomt.m; path = StomtiOS/Stomt.m; sourceTree = "<group>"; };
+		6177D3A04F53DF072F1E8836C1166E5A /* Stomt-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stomt-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		64776AFBA724EF02D81E968868AEA958 /* STCreationTop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCreationTop.m; path = StomtiOS/STCreationTop.m; sourceTree = "<group>"; };
+		6525B7FED181902CC769308DE810871F /* STCreationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCreationView.m; path = StomtiOS/STCreationView.m; sourceTree = "<group>"; };
+		663FA92479EC2786E2364E5E444225CC /* Pods-stomt-ios-sdk-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stomt-ios-sdk-sample.release.xcconfig"; sourceTree = "<group>"; };
+		66E543589BB2BC553A7424D8DB6A157E /* STTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTarget.h; path = StomtiOS/STTarget.h; sourceTree = "<group>"; };
+		69D28C65CA9F373638A36F202CCB0A61 /* HTTPResponseChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponseChecker.h; path = StomtiOS/HTTPResponseChecker.h; sourceTree = "<group>"; };
+		6B1FC068377FDE41B1720EA10F820D9B /* Pods-stomt-ios-sdk-sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stomt-ios-sdk-sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BFBC68F85AAD9D0D448E90C842377DB /* STImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STImage.h; path = StomtiOS/STImage.h; sourceTree = "<group>"; };
+		6D379CB604FD91C34306C6D3DDAD1C52 /* StomtRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StomtRequest.h; path = StomtiOS/StomtRequest.h; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EC9FCF1E4E2A3C8B5E6E228A3DF6935 /* ModalAuthenticationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModalAuthenticationController.m; path = StomtiOS/ModalAuthenticationController.m; sourceTree = "<group>"; };
+		74AAD9297A9708CB9E13A21DA6DD3D26 /* Pods-stomt-ios-sdk-sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stomt-ios-sdk-sample-frameworks.sh"; sourceTree = "<group>"; };
+		79DBC5D86CB19528496F9EC18F450D71 /* block_declarations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = block_declarations.h; path = StomtiOS/block_declarations.h; sourceTree = "<group>"; };
+		7CD69BE822819F1096161DAD35516BDD /* ModalAuthenticationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModalAuthenticationController.h; path = StomtiOS/ModalAuthenticationController.h; sourceTree = "<group>"; };
+		81976014C2C9956F18F6624B284FF6D9 /* STTargetDisplayerContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTargetDisplayerContainer.m; path = StomtiOS/STTargetDisplayerContainer.m; sourceTree = "<group>"; };
+		830CDAC0DB99EC7615077FAB459997BE /* AuthenticationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthenticationViewController.h; path = StomtiOS/AuthenticationViewController.h; sourceTree = "<group>"; };
+		89FF0724456B9CFA8C952490B3485E27 /* Pods-stomt-ios-sdk-sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stomt-ios-sdk-sample-dummy.m"; sourceTree = "<group>"; };
+		91D8FA9EE0BC9CB1BDCB2C50547E156B /* STUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STUser.m; path = StomtiOS/STUser.m; sourceTree = "<group>"; };
+		96DCA1F190ED6FA0A7403474D1B8669E /* StomtiOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StomtiOS.h; path = StomtiOS/StomtiOS.h; sourceTree = "<group>"; };
+		A4BF9A743835DD95F83F4D477F65F9ED /* STTargetNameRectangle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTargetNameRectangle.m; path = StomtiOS/STTargetNameRectangle.m; sourceTree = "<group>"; };
+		A603CBC3BDB456D763480DB1CA8C5A0A /* dbg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dbg.h; path = StomtiOS/dbg.h; sourceTree = "<group>"; };
+		AB7C178BB03B2BDDDF9168C00558B6D0 /* STCreationTop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCreationTop.h; path = StomtiOS/STCreationTop.h; sourceTree = "<group>"; };
+		AED6DA171AC4B8205E95C9973EDBD34D /* Pods-stomt-ios-sdk-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stomt-ios-sdk-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		B51746BCC2D950570DACF72278E9F8C9 /* STTargetDisplayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTargetDisplayer.m; path = StomtiOS/STTargetDisplayer.m; sourceTree = "<group>"; };
+		B92806158FB743151135B807C680F64C /* STSTats.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STSTats.m; path = StomtiOS/STSTats.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB38400AB6FBFE26602BE307BEEE86FA /* Stomt-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Stomt-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		BF18EB52CFD8CC962807B1D4B1AD1508 /* STCharCountLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCharCountLabel.m; path = StomtiOS/STCharCountLabel.m; sourceTree = "<group>"; };
+		C1A111815BFE3778004E4C2767212454 /* STTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTextView.m; path = StomtiOS/STTextView.m; sourceTree = "<group>"; };
+		C29D8A54B777C59AD3E997EB109CC15D /* STButtonLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STButtonLabel.h; path = StomtiOS/STButtonLabel.h; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4A20C71262D9B016532A91782F5A63F /* STCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCategory.m; path = StomtiOS/STCategory.m; sourceTree = "<group>"; };
+		C58DDB83D1A4E5871D7CEA7CBB70F161 /* STCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCategory.h; path = StomtiOS/STCategory.h; sourceTree = "<group>"; };
+		CC43CFFD0E72A6D11E6DD2D1981FF9B0 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601.m"; path = "StomtiOS/NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		CD713A1B7440DB89E252A7C59976BE2F /* STQualifierView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STQualifierView.h; path = StomtiOS/STQualifierView.h; sourceTree = "<group>"; };
+		D003253F1945C5E7C0D71A51E7AD4E6D /* STUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STUser.h; path = StomtiOS/STUser.h; sourceTree = "<group>"; };
+		D57828C6E2239DC203ED1BC9F7E8DD8D /* declarations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = declarations.h; path = StomtiOS/declarations.h; sourceTree = "<group>"; };
+		D6418B461BA95BE4B4E73F518501DA83 /* AuthenticationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthenticationViewController.m; path = StomtiOS/AuthenticationViewController.m; sourceTree = "<group>"; };
+		DC9B4B7F1375428768CFECFF1860FFFF /* STImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STImage.m; path = StomtiOS/STImage.m; sourceTree = "<group>"; };
+		E0F050FD1B896956F223CFE95EED8B38 /* STObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STObject.m; path = StomtiOS/STObject.m; sourceTree = "<group>"; };
+		E10260B130363A2C2E01A6CDEE83F6A1 /* STButtonLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STButtonLabel.m; path = StomtiOS/STButtonLabel.m; sourceTree = "<group>"; };
+		E34A77A1B6DEC1F27805F0925309BB87 /* Stomt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stomt.h; path = StomtiOS/Stomt.h; sourceTree = "<group>"; };
+		E526273F16ABA3F4347C217E48F3FF07 /* STLikeOrWishView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STLikeOrWishView.h; path = StomtiOS/STLikeOrWishView.h; sourceTree = "<group>"; };
+		E658F760D6AF5DCB2B5F3FA5F5407C63 /* Pods-stomt-ios-sdk-sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stomt-ios-sdk-sample-resources.sh"; sourceTree = "<group>"; };
+		EC8E6F991FB898FD308D21337738F389 /* STTargetNameRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTargetNameRectangle.h; path = StomtiOS/STTargetNameRectangle.h; sourceTree = "<group>"; };
+		EE0371B7A6B91CDADED81AEDA14D8DF1 /* STCreationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCreationView.h; path = StomtiOS/STCreationView.h; sourceTree = "<group>"; };
+		F0C44BA314F5EF9ECBD4188226AB6433 /* Stomt-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stomt-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		F2CD1A05F1E3717CA288BCA5FFA7F047 /* STSearchFilterKeywords.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STSearchFilterKeywords.h; path = StomtiOS/STSearchFilterKeywords.h; sourceTree = "<group>"; };
+		F3C9E7E080B39631250286288D642E8E /* STCharCountLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCharCountLabel.h; path = StomtiOS/STCharCountLabel.h; sourceTree = "<group>"; };
+		FE1BD5E06ADA9830A585FEBCCFE7476B /* libStomt-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libStomt-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8090DA5F0A22A1A971EE0E9D93F498 /* STFeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STFeed.h; path = StomtiOS/STFeed.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656A5A15790C0149C0E3436D6FC2FA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3CDC19D305C714882CE27A636E375A /* Foundation.framework in Frameworks */,
+				5E39691AF100284C1D6FCF527DD70C36 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853D2FBC965CEE9B10F8674B6C8203E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49180F07942ED00F3B96D45E9B0F3C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		309D236D8726C3C8913CEA78562EE2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9ECD3644A2D9481E1B0CFFD50D489 /* libPods-stomt-ios-sdk-sample.a */,
+				FE1BD5E06ADA9830A585FEBCCFE7476B /* libStomt-iOS-SDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55CB8BA5406787D383B5F924732AE416 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3239B04106DB58991BF1567E18D7A93 /* Pods-stomt-ios-sdk-sample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5715894964290E89ACE78B36F6CF7947 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB38400AB6FBFE26602BE307BEEE86FA /* Stomt-iOS-SDK.xcconfig */,
+				F0C44BA314F5EF9ECBD4188226AB6433 /* Stomt-iOS-SDK-dummy.m */,
+				6177D3A04F53DF072F1E8836C1166E5A /* Stomt-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Stomt-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		6151BB0E90C88DA45C27DBB95C90D3F8 /* Stomt-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				59AD34F243F440BF18CD0DD138FECE8C /* AuthenticationView.h */,
+				29A8AE11ACD0AAF5E4BB9C9FA5965A86 /* AuthenticationView.m */,
+				830CDAC0DB99EC7615077FAB459997BE /* AuthenticationViewController.h */,
+				D6418B461BA95BE4B4E73F518501DA83 /* AuthenticationViewController.m */,
+				79DBC5D86CB19528496F9EC18F450D71 /* block_declarations.h */,
+				A603CBC3BDB456D763480DB1CA8C5A0A /* dbg.h */,
+				D57828C6E2239DC203ED1BC9F7E8DD8D /* declarations.h */,
+				69D28C65CA9F373638A36F202CCB0A61 /* HTTPResponseChecker.h */,
+				2BE389FF96428BB83214F118DF5DD949 /* HTTPResponseChecker.m */,
+				7CD69BE822819F1096161DAD35516BDD /* ModalAuthenticationController.h */,
+				6EC9FCF1E4E2A3C8B5E6E228A3DF6935 /* ModalAuthenticationController.m */,
+				15C8424613346EFEA8C71563B108CFD9 /* NSDate+ISO8601.h */,
+				CC43CFFD0E72A6D11E6DD2D1981FF9B0 /* NSDate+ISO8601.m */,
+				C29D8A54B777C59AD3E997EB109CC15D /* STButtonLabel.h */,
+				E10260B130363A2C2E01A6CDEE83F6A1 /* STButtonLabel.m */,
+				C58DDB83D1A4E5871D7CEA7CBB70F161 /* STCategory.h */,
+				C4A20C71262D9B016532A91782F5A63F /* STCategory.m */,
+				F3C9E7E080B39631250286288D642E8E /* STCharCountLabel.h */,
+				BF18EB52CFD8CC962807B1D4B1AD1508 /* STCharCountLabel.m */,
+				AB7C178BB03B2BDDDF9168C00558B6D0 /* STCreationTop.h */,
+				64776AFBA724EF02D81E968868AEA958 /* STCreationTop.m */,
+				EE0371B7A6B91CDADED81AEDA14D8DF1 /* STCreationView.h */,
+				6525B7FED181902CC769308DE810871F /* STCreationView.m */,
+				46ACD2E9F59DA864415E00005ACB57C2 /* STCreationViewController.h */,
+				588587608B14937509EDC63E8261EA45 /* STCreationViewController.m */,
+				FF8090DA5F0A22A1A971EE0E9D93F498 /* STFeed.h */,
+				138B4EB15254710E6C9739E5AAB724B6 /* STFeed.m */,
+				6BFBC68F85AAD9D0D448E90C842377DB /* STImage.h */,
+				DC9B4B7F1375428768CFECFF1860FFFF /* STImage.m */,
+				08B45BEE23D92D378A3E4BFE2344DFED /* STImageView.h */,
+				0AC076542DD82E8EA20159EED1BF9A8C /* STImageView.m */,
+				E526273F16ABA3F4347C217E48F3FF07 /* STLikeOrWishView.h */,
+				1657E53159F12EA466A1A2FB6D8EA596 /* STLikeOrWishView.m */,
+				11A922502C3E8424ED3500FC9A0FE857 /* STObject.h */,
+				E0F050FD1B896956F223CFE95EED8B38 /* STObject.m */,
+				E34A77A1B6DEC1F27805F0925309BB87 /* Stomt.h */,
+				5B5B44E66BE3DD76A4303B14309E6A2A /* Stomt.m */,
+				96DCA1F190ED6FA0A7403474D1B8669E /* StomtiOS.h */,
+				6D379CB604FD91C34306C6D3DDAD1C52 /* StomtRequest.h */,
+				128F91D12121ABCE0D02C7BE77C8FD40 /* StomtRequest.m */,
+				CD713A1B7440DB89E252A7C59976BE2F /* STQualifierView.h */,
+				3E16938373304A4E4E7FA15158CC5DEC /* STQualifierView.m */,
+				4546B1E6F39CD286A3962D57EC00B180 /* strings.h */,
+				F2CD1A05F1E3717CA288BCA5FFA7F047 /* STSearchFilterKeywords.h */,
+				0E0BD22F14FD69E1D3EA132BA59F85DE /* STSearchFilterKeywords.m */,
+				12DE5E22282529C8E6A9DEACC1C9070D /* STSTats.h */,
+				B92806158FB743151135B807C680F64C /* STSTats.m */,
+				66E543589BB2BC553A7424D8DB6A157E /* STTarget.h */,
+				523B66FFC16E395135B1C54D25DF52C1 /* STTarget.m */,
+				092A844DB012DABF62C58AEF711FB413 /* STTargetDisplayer.h */,
+				B51746BCC2D950570DACF72278E9F8C9 /* STTargetDisplayer.m */,
+				05E32E2CE8C53D1A3EC3EC734493B31D /* STTargetDisplayerContainer.h */,
+				81976014C2C9956F18F6624B284FF6D9 /* STTargetDisplayerContainer.m */,
+				EC8E6F991FB898FD308D21337738F389 /* STTargetNameRectangle.h */,
+				A4BF9A743835DD95F83F4D477F65F9ED /* STTargetNameRectangle.m */,
+				527A5AC3662830600CE2E5ACDF9F21E2 /* STTextView.h */,
+				C1A111815BFE3778004E4C2767212454 /* STTextView.m */,
+				D003253F1945C5E7C0D71A51E7AD4E6D /* STUser.h */,
+				91D8FA9EE0BC9CB1BDCB2C50547E156B /* STUser.m */,
+				5715894964290E89ACE78B36F6CF7947 /* Support Files */,
+			);
+			path = "Stomt-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BD145B64BDE2370F46CDCA8241CAA853 /* Pods */,
+				309D236D8726C3C8913CEA78562EE2E1 /* Products */,
+				55CB8BA5406787D383B5F924732AE416 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3239B04106DB58991BF1567E18D7A93 /* Pods-stomt-ios-sdk-sample */ = {
+			isa = PBXGroup;
+			children = (
+				0136A7CC8A3B12055360F7D089626347 /* Pods-stomt-ios-sdk-sample-acknowledgements.markdown */,
+				6B1FC068377FDE41B1720EA10F820D9B /* Pods-stomt-ios-sdk-sample-acknowledgements.plist */,
+				89FF0724456B9CFA8C952490B3485E27 /* Pods-stomt-ios-sdk-sample-dummy.m */,
+				74AAD9297A9708CB9E13A21DA6DD3D26 /* Pods-stomt-ios-sdk-sample-frameworks.sh */,
+				E658F760D6AF5DCB2B5F3FA5F5407C63 /* Pods-stomt-ios-sdk-sample-resources.sh */,
+				AED6DA171AC4B8205E95C9973EDBD34D /* Pods-stomt-ios-sdk-sample.debug.xcconfig */,
+				663FA92479EC2786E2364E5E444225CC /* Pods-stomt-ios-sdk-sample.release.xcconfig */,
+			);
+			name = "Pods-stomt-ios-sdk-sample";
+			path = "Target Support Files/Pods-stomt-ios-sdk-sample";
+			sourceTree = "<group>";
+		};
+		BD145B64BDE2370F46CDCA8241CAA853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6151BB0E90C88DA45C27DBB95C90D3F8 /* Stomt-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A2FC109740ADAD3FD5A6DFFF2AB8FAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0398FE1D121D868E5896051DB73A83 /* AuthenticationView.h in Headers */,
+				D6509C36ABCF9FF11D5457BA7B6A5552 /* AuthenticationViewController.h in Headers */,
+				3CBE6757E44DC9972C598C566D1A5DF9 /* block_declarations.h in Headers */,
+				51458A0E3EA7C333BEB5D00E956C9E41 /* dbg.h in Headers */,
+				321A5A27104FC56A18421EB7AD184398 /* declarations.h in Headers */,
+				1C277452D75BC98FD48E7FC701ABAF38 /* HTTPResponseChecker.h in Headers */,
+				C0DA0873931640975EB6692F3B11EA1F /* ModalAuthenticationController.h in Headers */,
+				D7C1066CB163FD93603A198F6C522BEA /* NSDate+ISO8601.h in Headers */,
+				5B0CEF62BAAB42EE66BC188D06219670 /* STButtonLabel.h in Headers */,
+				F7E12F7F6942622EB2C8E55C71DC6C5C /* STCategory.h in Headers */,
+				975FA275A823311779EBCD8B199F644F /* STCharCountLabel.h in Headers */,
+				EF96F59F8D4535F220088E30648DADDA /* STCreationTop.h in Headers */,
+				9F1ADFAB126D17CB8DF929C350445D3F /* STCreationView.h in Headers */,
+				45C36E15B2B4AE8E96A0B07B8ED85A32 /* STCreationViewController.h in Headers */,
+				3922405269009F14D3AE810F3943726F /* STFeed.h in Headers */,
+				AC71819FC5CE0F7FACE6F2E226DEEF3B /* STImage.h in Headers */,
+				E8A0F8A7F0A2ACF19B726FBF4428EEEF /* STImageView.h in Headers */,
+				905335C56B3B9597CF13A142F83B9733 /* STLikeOrWishView.h in Headers */,
+				AB72B8AF296A992ECF90CD73A4F65896 /* STObject.h in Headers */,
+				0B079C15677CA4BAE966EF47225BC008 /* Stomt.h in Headers */,
+				18CE630EF688123CCAE64BA5285ACFDD /* StomtiOS.h in Headers */,
+				7F96EFDEF2BCF42D57788543A8DF9613 /* StomtRequest.h in Headers */,
+				8CEE080325BB7D7FA871F9D8D47E0459 /* STQualifierView.h in Headers */,
+				1AC4B2C01C5886113CCCBA2D1DEDAFF9 /* strings.h in Headers */,
+				77DFA9B192C0CB475699A7C13346090B /* STSearchFilterKeywords.h in Headers */,
+				F5D10CA6AF762F55824482479DCD2D55 /* STSTats.h in Headers */,
+				4D124AF9A7B5B28E7167C775385DFA01 /* STTarget.h in Headers */,
+				750B847856DD9257495E72436B30ED2D /* STTargetDisplayer.h in Headers */,
+				4179ED01FC8B3EA880C0AB7831149B2A /* STTargetDisplayerContainer.h in Headers */,
+				1CBC90D8AB7A87F3B0455F7BD4834BA0 /* STTargetNameRectangle.h in Headers */,
+				BB9B1BA5DF074F45E4154A050907A4F5 /* STTextView.h in Headers */,
+				7EBBE2010CD0A3DD9D6800D5C4D4B956 /* STUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0312E2C94478FE642278A61D5129A917 /* Stomt-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069BB915B790C93EE82A7985564E6A56 /* Build configuration list for PBXNativeTarget "Stomt-iOS-SDK" */;
+			buildPhases = (
+				B0237B8B3BBDCCDBC647D072BF8D89C9 /* Sources */,
+				656A5A15790C0149C0E3436D6FC2FA9B /* Frameworks */,
+				7A2FC109740ADAD3FD5A6DFFF2AB8FAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stomt-iOS-SDK";
+			productName = "Stomt-iOS-SDK";
+			productReference = FE1BD5E06ADA9830A585FEBCCFE7476B /* libStomt-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1087651D965D08A181E9EE25D885849B /* Pods-stomt-ios-sdk-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBA9D16818832A4499048C76842FB1B /* Build configuration list for PBXNativeTarget "Pods-stomt-ios-sdk-sample" */;
+			buildPhases = (
+				EB7DDE7BB789C20780EB3BD7E5A65226 /* Sources */,
+				853D2FBC965CEE9B10F8674B6C8203E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC25610805BAD7B9CB3921E04D2C683 /* PBXTargetDependency */,
+			);
+			name = "Pods-stomt-ios-sdk-sample";
+			productName = "Pods-stomt-ios-sdk-sample";
+			productReference = 2AF9ECD3644A2D9481E1B0CFFD50D489 /* libPods-stomt-ios-sdk-sample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 309D236D8726C3C8913CEA78562EE2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1087651D965D08A181E9EE25D885849B /* Pods-stomt-ios-sdk-sample */,
+				0312E2C94478FE642278A61D5129A917 /* Stomt-iOS-SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0237B8B3BBDCCDBC647D072BF8D89C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5588A87931317E412632E8D39861B741 /* AuthenticationView.m in Sources */,
+				BF778CFAE91545DF6CE0E5D2BC2DFA93 /* AuthenticationViewController.m in Sources */,
+				E501116497028DEDB27530025948E7F7 /* HTTPResponseChecker.m in Sources */,
+				F8BA3C196D12C468756ACB3C2D1861DC /* ModalAuthenticationController.m in Sources */,
+				28B3C5F5AB66F1404DF25BC7D959E028 /* NSDate+ISO8601.m in Sources */,
+				DF575893AA014F339FB957AF89D9A6AB /* STButtonLabel.m in Sources */,
+				A9BD50454CD9B83C31DD81DD289709F8 /* STCategory.m in Sources */,
+				95C90358630CA2C9E99F6AD908445EC1 /* STCharCountLabel.m in Sources */,
+				88660027C3772739CF21D5686D3E35BD /* STCreationTop.m in Sources */,
+				E95BED1B7D6CF872603A892C672851B0 /* STCreationView.m in Sources */,
+				177DB48CD1794084BE380A8963C45CD0 /* STCreationViewController.m in Sources */,
+				0F8AC01A260BDD3DD7BBEE886291B626 /* STFeed.m in Sources */,
+				C0FF52C60F3050A7E1DB3F35EBE9BD35 /* STImage.m in Sources */,
+				3BE84A6F64B57ABA7CF99D6ADFDDE05A /* STImageView.m in Sources */,
+				344281D53DCA366E96ACE9E2EC401CCB /* STLikeOrWishView.m in Sources */,
+				0CBC60B008789E05A05B3DC750AFBD40 /* STObject.m in Sources */,
+				4753BC7958EE704D02B68CC3A7B2D58F /* Stomt-iOS-SDK-dummy.m in Sources */,
+				86260383FA390C46EC3DC85E72ACAC07 /* Stomt.m in Sources */,
+				36762F84E8D58991DA0B426452184C76 /* StomtRequest.m in Sources */,
+				9324178E6C80B95B5C4258F9F447815F /* STQualifierView.m in Sources */,
+				01CFEFF614AB3E204B49E1DAB5FA8124 /* STSearchFilterKeywords.m in Sources */,
+				BACA03EFC24903760F296D9F47C0E257 /* STSTats.m in Sources */,
+				3F7128019B82D717679704021670D7EE /* STTarget.m in Sources */,
+				8B0B8833611B4E59BC1BF38B5C80D841 /* STTargetDisplayer.m in Sources */,
+				2A8FBA34FCA6D4D7F198183711F4A67A /* STTargetDisplayerContainer.m in Sources */,
+				0C608010DA672AE3992E278E4408A82C /* STTargetNameRectangle.m in Sources */,
+				E66B756A5689F817587E2E4D39C878BD /* STTextView.m in Sources */,
+				3338BC9AEEBD8A1E64D1FB68A52D80F1 /* STUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7DDE7BB789C20780EB3BD7E5A65226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D7C991A7FF48CF2DEC654881EECB50 /* Pods-stomt-ios-sdk-sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC25610805BAD7B9CB3921E04D2C683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Stomt-iOS-SDK";
+			target = 0312E2C94478FE642278A61D5129A917 /* Stomt-iOS-SDK */;
+			targetProxy = 2F0B0734B5DC94F0BE3F62949F7CB5F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36E21EFEE6B7B424D77352F077D4EA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB38400AB6FBFE26602BE307BEEE86FA /* Stomt-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Stomt-iOS-SDK/Stomt-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39926ABDB7102C427F65B14D52419462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB38400AB6FBFE26602BE307BEEE86FA /* Stomt-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Stomt-iOS-SDK/Stomt-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		999F00D5F80D2A7E5CB26E870F5F2A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663FA92479EC2786E2364E5E444225CC /* Pods-stomt-ios-sdk-sample.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5817F45C0C54BEB04ADCC4FC55EE38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED6DA171AC4B8205E95C9973EDBD34D /* Pods-stomt-ios-sdk-sample.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069BB915B790C93EE82A7985564E6A56 /* Build configuration list for PBXNativeTarget "Stomt-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E21EFEE6B7B424D77352F077D4EA32 /* Debug */,
+				39926ABDB7102C427F65B14D52419462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBA9D16818832A4499048C76842FB1B /* Build configuration list for PBXNativeTarget "Pods-stomt-ios-sdk-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5817F45C0C54BEB04ADCC4FC55EE38B /* Debug */,
+				999F00D5F80D2A7E5CB26E870F5F2A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

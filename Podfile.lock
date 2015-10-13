@@ -1,0 +1,10 @@
+PODS:
+  - Stomt-iOS-SDK (0.0.1)
+
+DEPENDENCIES:
+  - Stomt-iOS-SDK (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  Stomt-iOS-SDK: 640ddaf5faaa4ce65c96b55f085eb6dfb515ee16
+
+COCOAPODS: 0.39.0

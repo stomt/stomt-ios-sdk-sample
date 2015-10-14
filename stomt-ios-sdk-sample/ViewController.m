@@ -7,21 +7,34 @@
 //
 
 #import "ViewController.h"
-#import <Stomt-iOS-SDK/Stomt.h>
+
+#import "Stomt.h" //#import <Stomt-iOS-SDK/Stomt.h> if you added the library manually!
 
 @interface ViewController ()
-
+@property (nonatomic,strong) IBOutlet UILabel* stomtLabel;
+@property (nonatomic,strong) IBOutlet UILabel* stomtVersionLabel;
+@property (nonatomic,strong) IBOutlet UIButton* stomtCreationButton;
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
+	
+	// Private initialization -------
+	self.stomtLabel.text = @"stomt";
+	self.stomtLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:24];
+	self.stomtLabel.textColor = [UIColor colorWithRed:0 green:145.0f/255 blue:201.0f/255 alpha:100];
+	self.stomtVersionLabel.text = @"BETA";
+	self.stomtVersionLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:8];
+	self.stomtVersionLabel.textColor = [UIColor colorWithRed:239.0f/255 green:142.0f/255 blue:30.0f/255 alpha:100];
+	
+	// END ------
+	
+
     [super viewDidLoad];
 
-    // Setup Stomt with your AppID
-	// -> get yours at: https://www.stomt.com/dev/my-apps
-    //
-    [Stomt setAppID:@"9oKmFftlRL946JtDDUTmpmW4H"];
 }
 
 - (void)didReceiveMemoryWarning {

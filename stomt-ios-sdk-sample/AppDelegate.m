@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+#import "Stomt.h" //#import <Stomt-iOS-SDK/Stomt.h> if you added the library manually!
 
 @interface AppDelegate ()
 
@@ -16,7 +19,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+	
+	// Private initialization -------
+	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+	self.window.rootViewController = [[ViewController alloc] init];
+	[self.window makeKeyAndVisible];
+	// END ------
+	
+	
+	
+	// Setup Stomt with your AppID
+	// -> get yours at: https://www.stomt.com/dev/my-apps
+	//
+	[Stomt setAppID:@"9oKmFftlRL946JtDDUTmpmW4H"];
+	
     return YES;
 }
 
